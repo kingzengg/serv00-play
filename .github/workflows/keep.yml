@@ -5,7 +5,7 @@ on:
     # 使用cron表达式定义任务运行的时间
     #github最小时间间隔为10分钟
     - cron: '*/20 * * * *'
-#  workflow_dispatch:
+  workflow_dispatch:
 
 jobs:
   deploy:
